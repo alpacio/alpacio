@@ -14,6 +14,8 @@ deploy_staging:
     name: staging
     url: alpacio.com
   script:
-    - ssh leo@alpacio.com "cd ~/node_project/views && git checkout master && git pull origin master && exit"
+    - ls -a
+  tags:
+    - deploy-digital-ocean
   only:
     - master
