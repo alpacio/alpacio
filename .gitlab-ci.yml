@@ -4,7 +4,7 @@ deploy_staging:
     name: staging
     url: alpacio.com
   script:
-    - ls -a
+    - cp -r . /home/leo/node_project/views/alpacio
   tags:
     - deploy-digital-ocean
   only:
