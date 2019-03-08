@@ -4,7 +4,7 @@ deploy_staging:
     name: staging
     url: alpacio.com
   script:
-    - cp -r ./* /home/leo/nginx/www/alpacio
+    - cp -r ./* /home/leo/nginx/www/leovanhaaren
   tags:
     - deploy-digital-ocean
   only:
