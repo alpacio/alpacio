@@ -1,8 +1,8 @@
-deploy_staging:
+deploy_production:
   type: deploy
   environment:
-    name: staging
-    url: alpacio.com
+    name: production
+    url: leovanhaaren.com
   script:
     - cp -r ./* /home/leo/www/leovanhaaren
   tags:
