@@ -4,6 +4,7 @@ deploy_production:
     name: production
     url: leovanhaaren.com
   script:
+    - mkdir -p /home/leo/www/leovanhaaren
     - cp -r ./* /home/leo/www/leovanhaaren
   tags:
     - deploy-digital-ocean
